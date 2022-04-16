@@ -1,0 +1,48 @@
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Helvanic;
+    margin: 0;
+  }
+  main {
+    
+  }
+  .main-header {
+        /* Defines how to distribute the empty space between child elements */
+    padding: 60px;
+    background: #09300b;
+    color: #fff;
+    text-align: center;
+  } 
+
+  .buttonGen {
+    width: 300px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+  .glow-button:hover {
+      color: rgb(176, 101, 101);
+      box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    }
+
+    .myBtn {
+        width: 300px;
+        position: relative;
+        text-align: left;
+        margin: auto;
+    }
+    .card {
+  border-style: dashed;
+      border-width: 1px;
+      border-radius: 50px;
+      padding: 10px;
+      flex: 0 0 300px;
+      text-align: center;
+      box-shadow: 10px 10px 5px #AAAAAA;
+      margin: 20px;
+  }
+  
+  

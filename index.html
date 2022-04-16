@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Random Password Generator</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- link CSS file -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>Random Password Generator</h1>
+      
+    </header>
+    <main>
+
+        <section class="card">
+            <h1>Press the Generate Button to Randomly Create a Password</h1>
+            <div class="buttonGen">
+                <input type="text" id="enter">
+                <button id="Generate">Generate</button>
+            </div>                    
+        </section>
+ 
+        <p id="myValue"></p>
+    
+      <script>
+        src="./assets/js/javascript.js"
+        /*document.getElementById("myValue").innerHTML = 5100 + 66;*/
+        
+        /* function randomize() {
+          document.getElementById("myValue").innerHTML = Math.floor(Math.random() * 10000000);
+        }*/
+         
+          document.getElementById("myValue").innerHTML = Math.floor(Math.random() * 10000000);
+        
+        
+      </script>
+
+      <button id="myBtn">Generate</button>
+
+      <p id="myValue">
+
+      <script>
+          const element = document.getElementById("myBtn");
+          element.addEventListener("click", myFunction);
+
+          function myFunction() {
+              document.getElementById("myValue").innerHTML = Math.floor(Math.random() * 10000000);
+          }
+      </script>
+      
+        
+      </section>
+    </main>
+    <footer>Footer Section</footer>
+  </body>
+</html>
